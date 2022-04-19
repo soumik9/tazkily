@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.btn-tazkily{
+    padding: 16px 32px;
+    color: #FFF;
+    background-color: #8828FF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.btn-tazkily:hover{
+    color: #FFF;
+}
+
+.my-100{
+    margin: 100px 0;
+}
+
+.ms-23{
+    margin-left: 23px;
+}
+.me-23{
+    margin-right: 23px;
+}
+
+.py-50{
+    padding: 50px 0;
+}
+
+.py-100{
+    padding: 100px 0;
+}
+
+.title-bold{
+    color: #20184E;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.detail-gray{
+    margin-top: 20px;
+    margin-bottom: 44px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #666666
+}
+
+
+/* ===========================
+        header css starts
+==============================*/
+header {
+    background-image: linear-gradient(to right bottom, #c1bcff, #bdb0ff, #bba4ff, #bb96ff, #bc88ff, #aa91ff, #9999ff, #8ba0ff, #7bb7ff, #7bcbff, #8ddcff, #aaebff);
+}
+
+.navbar__brand-left {
+    width: 30px;
+    height: 30px;
+    background-color: #8828FF;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.navbar__brand-left img {
+    width: 12px;
+    height: 13px;
+}
+
+.navbar-toggler-icon{
+    color: #8828FF ;
+}
+
+.navbar-nav .nav-link {
+    color: red;
+    margin: 0 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.navbar-nav .active {
+    color: #8828FF;
+}
+
+.nav-right .nav-link {
+    color: #8828FF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-right .nav-link:first-child {
+    padding-top: 15px !important;
+}
+
+.get__started-btn {
+    border: 1.3px solid #8828FF;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 14px 32px !important;
+}
+
+.header__bannner__container{
+    margin-top: 30px;
+}
+
+.header__banner{
+    padding: 30px 0 110px 0;
+    color: #FFFFFF;
+}
+
+.header__bannner__left-title{
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: capitalize;
+}
+
+.header__bannner__left-details{
+    margin-top: 20px;
+    margin-bottom: 64px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.header__bannner__left-buttons div:first-child{
+    margin-right: 56px;
+}
+
+.header__bannner__left-buttons .btn-try{
+    background-color: transparent !important;
+}
+
+
+/* ===========================
+        header css starts
+==============================*/
+
+
+.third__section-img{
+    width: 578px;
+    height: 531px;
+}
+
+.third__section__right-button a{
+    color: #8828FF;
+    background-color: #F8F2FF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.third__section__right-button a:hover{
+    color: #8828FF;
+}
+
+
+/* ===========================
+        package css starts
+==============================*/
+.package__section__container{
+    background-color: #F9F9FB;
+}
+
+.package__section-header{
+    width: 45%;
+}
+
+.package__duration{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.package__section .form-switch{
+    width: 20%;
+    padding-left: 0;
+    position: relative;
+    top: -7px;
+}
+
+.package__section .form-switch .form-check-input{
+    margin-left: 0;
+    background-image: url('./images/checkbox-bg.png');
+    height: 32px;
+}
+
+.package__section .form-check-input:checked {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width: 576px) {
+    .header__banner{
+        padding: 00px 0 30px 0;
+    }
+
+    .header__bannner__left-buttons div:first-child{
+        margin-right: 20px;
+    }
+
+    .third__section__right-title{
+        font-size: 32px;
+    }
+  }
