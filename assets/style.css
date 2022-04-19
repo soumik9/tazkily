@@ -302,6 +302,61 @@ header {
     right: 22px;
 }
 
+
+/* ===========================
+    blog css starts
+==============================*/
+.blog__container__header p{
+    margin: 0;
+}
+
+.blog__section__items{
+    margin-top: 50px;
+}
+
+.blog__section-item .card{
+    padding: 24px;
+    background: #FDFDFD;
+    border-radius: 20px;
+}
+
+.blog__item-left img{
+    margin-bottom: 16px;
+}
+
+.blog__item-left small{
+    color: #ADABB7;
+    font-size: 10px;
+}
+
+.blog__item-left p{
+    color: #8828FF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog__item-right h1{
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 576px) {
     .title-bold{
         font-size: 28px;
