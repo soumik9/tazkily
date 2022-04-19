@@ -13,8 +13,17 @@ body {
     text-decoration: none;
 }
 
+.transparent-btn{
+    background-color: #F8F2FF;
+    color: #8828FF;
+}
+
 .btn-tazkily:hover{
     color: #FFF;
+}
+
+.transparent-btn:hover{
+    color: #8828FF;
 }
 
 .my-100{
@@ -186,6 +195,7 @@ header {
     margin-left: 0;
     background-image: url('./images/checkbox-bg.png');
     height: 32px;
+    border-color: #fff;
 }
 
 .package__section .form-check-input:checked {
@@ -193,11 +203,93 @@ header {
     border-color: #fff;
 }
 
+.package__section-items{
+    margin-top: 67px;
+}
 
+.package__section-item .card{
+    border-radius: 20px 20px 8px 8px;
+}
 
+.card__header{
+    padding: 32px 0 32px 40px;
+    background: #8828FF;
+    border-radius: 20px 20px 8px 8px;
+}
 
+.card__header-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #fff;
+}
+
+.card__header-price{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fff;
+}
+
+.card__header-price span{
+    margin-left: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.card__details{
+    padding: 39px 0 32px 42px;
+}
+
+.card__details ul{
+    padding: 0;
+}
+
+.card__details ul li{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card__details-icon i{
+    color: #8828FF;
+    position: relative;
+    top: 1px;
+}
+
+.card__details ul li p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #666666;
+}
+
+.card__details-btn{
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.card__details__special{
+    background: #8828FF;
+    color: #EDEDED;
+}
+
+.card__details__special .card__details-icon i{
+    color: #FFF;
+}
+
+.card__details__special .card__details ul li p{
+    color: #EDEDED;
+}
 
 @media only screen and (max-width: 576px) {
+    .title-bold{
+        font-size: 28px;
+    }
+    
     .header__banner{
         padding: 00px 0 30px 0;
     }
@@ -208,5 +300,21 @@ header {
 
     .third__section__right-title{
         font-size: 32px;
+    }
+
+    .package__section{
+        padding-bottom: 15px;
+    }
+
+    .package__section-header{
+        width: 100%;
+    }
+
+    .package__section-item{
+        margin-bottom: 30px;
+    }
+
+    .package__section-item:nth-child(3){
+        margin-bottom: 0px;
     }
   }
