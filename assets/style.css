@@ -275,6 +275,7 @@ header {
 .card__details__special{
     background: #8828FF;
     color: #EDEDED;
+    position: relative;
 }
 
 .card__details__special .card__details-icon i{
@@ -283,6 +284,22 @@ header {
 
 .card__details__special .card__details ul li p{
     color: #EDEDED;
+}
+
+.card__recommended p{
+    padding: 17px 21px 16px 22px;
+    background: #FFDA58;
+    color: #20184E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 00px 0px 8px 8px;
+}
+
+.card__recommended{
+    position: absolute;
+    top: 0;
+    right: 22px;
 }
 
 @media only screen and (max-width: 576px) {
