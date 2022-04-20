@@ -390,6 +390,7 @@ footer{
 
 .footer__container{
     padding: 127px 0 109px 0;
+    color: #ADABB7;
 }
 
 .footer__container .navbar__brand-left{
@@ -496,5 +497,17 @@ footer{
         font-size: 16px;
     }
 
+    .footer__container{
+        padding: 68px 0 39px 23px;
+    }
+    .footer__foot__section{
+        margin-top: 50px;
+    }
+
+    .footer__container__links__section ul{
+        padding-left: 0;
+    }
+
+  
  
 }
