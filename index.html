@@ -451,6 +451,48 @@
         </section>
         <!-- used by section end -->
 
+
+        <!-- join section start -->
+        <section class="join__section__container">
+            <div class="container">
+                <div class="join__container py-100">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 col-12">
+                            <div class="join__container__left text-center text-md-start">
+                                <h1 class="title-bold">Join other founders, freelancers, makers and many-hat wearers</h1>
+                                <p class="details-gray">Join the thousands of other people just like you who started using Tazkily and took back control of their day</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-10">
+                            <div class="testimonial__items d-block d-md-flex"> <!--testimonial-carousel -->
+                                <div class="testimonial__item ">
+                                    <div class="card">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img src="./assets/images/t-2.png" alt=""></div>
+                                            <div><h6>Vincen Mcmhon</h6></div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="testimonial__item ">
+                                    <div class="card">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit cursus ullamcorper netus facilisis cras ut sed sodales tellus ac urna enim vestib.</p>
+                                        <div class="d-flex align-items-center">
+                                            <div><img src="./assets/images/t-2.png" alt=""></div>
+                                            <div><h6>Vincen Mcmhon</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- join section end -->
+        
+
     </main>
     <!-- main markup -->
 
@@ -555,7 +597,7 @@
     <script src="./assets/owl/owl.carousel.min.js"></script>
 
     
-    <!-- owl carousel script -->
+    <!-- owl carousel script blog section -->
     <script>
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
@@ -568,11 +610,38 @@
                         nav:true
                     },
                     576:{
-                        items:1,
+                        items:2,
                         nav:true
                     },
                     1000:{
                         items:3,
+                        nav:true,
+                        loop:false
+                    }
+                }
+            });
+        });
+    </script>
+
+    <!-- owl carousel script testimonial section -->
+    <script>
+        $(document).ready(function(){
+            $(".testimonial-carousel").owlCarousel({
+                loop:true,
+                margin:20,
+                dots:false,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:true
+                    },
+                    576:{
+                        items:2,
+                        nav:true
+                    },
+                    1000:{
+                        items:2,
                         nav:true,
                         loop:false
                     }

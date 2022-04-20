@@ -66,7 +66,10 @@ body {
         header css starts
 ==============================*/
 header {
-    background-image: linear-gradient(to right bottom, #c1bcff, #bdb0ff, #bba4ff, #bb96ff, #bc88ff, #aa91ff, #9999ff, #8ba0ff, #7bb7ff, #7bcbff, #8ddcff, #aaebff);
+    /* background-image: linear-gradient(to right bottom, #c1bcff, #bdb0ff, #bba4ff, #bb96ff, #bc88ff, #aa91ff, #9999ff, #8ba0ff, #7bb7ff, #7bcbff, #8ddcff, #aaebff); */
+    background-image: url('./images/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .navbar__brand-left {
@@ -87,7 +90,7 @@ header {
 }
 
 .navbar-nav .nav-link {
-    color: red;
+    color: #C08DFF;
     margin: 0 20px;
     font-weight: 400;
     font-size: 18px;
@@ -352,14 +355,13 @@ header {
     margin-bottom: 0;
 }
 
-.owl-nav{
+.owl-carousel .owl-nav{
     display: flex;
     justify-content: end;
     margin-top: 35px;
 }
 
-.owl-prev, .owl-next{
-    padding: ;
+.owl-carousel .owl-prev, .owl-carousel .owl-next{
     background-color: #8828FF !important;
     width: 27px;
     height: 27px;
@@ -367,7 +369,7 @@ header {
     margin-right: 24px;
 }
 
-.owl-prev span, .owl-next span{
+.owl-carousel .owl-prev span, .owl-carousel .owl-next span{
     color: white;
     font-size: 18px;
 }
@@ -385,6 +387,76 @@ header {
 }
 
 
+/* ===========================
+    join css starts
+==============================*/
+.join__section__container{
+    background-image: url('./images/join-section-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+}
+
+.join__container__left h1{
+    color: #FFF;
+}
+.join__container__left p{
+    margin-top: 16px;
+}
+
+.testimonial__items .owl-stage{
+    width: 100%;
+}
+
+.testimonial__items .card{
+    padding: 40px 44px 32px 44px;
+}
+
+.testimonial__item p{
+    color: #8F8F8F;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonial__item img{
+    width: 46px;
+    height: 46px;
+    margin-right: 16px;
+}
+
+.testimonial__item h6{
+    color: #8828FF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.testimonial-carousel .owl-nav{
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+}
+
+.testimonial-carousel .owl-prev, .testimonial-carousel .owl-next{
+    background-color: #8828FF !important;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.testimonial-carousel button, .testimonial-carousel button{
+    border: none;
+}
+
+.testimonial-carousel .owl-prev span, .testimonial-carousel .owl-next span{
+    color: white;
+    font-size: 18px;
+}
+.testimonial-carousel .owl-prev.disabled,
+  .owtestimoniall-carousel .owl-next.disabled{
+    background-color: #F8F2FF !important;
+}
 
 /* ===========================
     footer css starts
@@ -414,10 +486,6 @@ footer{
 }
 .footer__container__first__section .socials div{
     margin-right: 45px;
-}
-
-.footer__container__links__section ul{
-    
 }
 
 .footer__container__links__section ul li{
@@ -506,6 +574,11 @@ footer{
     .blog__container__header p{
         margin-bottom: 50px;
         font-size: 16px;
+    }
+
+    .testimonial__items .owl-stage{
+        width: 100%;
+        transform: translate3d(0, 0, 0) !important;
     }
 
     .footer__container{
