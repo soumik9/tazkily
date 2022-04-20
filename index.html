@@ -315,13 +315,6 @@
         </section>
         <!-- package section end -->
 
-        <div class="owl-carousel">
-            <div class="text-danger"> Your Content </div>
-            <div class="text-danger"> Your Content </div>
-            <div class="text-danger"> Your Content </div>
-            <div class="text-danger"> Your Content </div>
-            <div class="text-danger"> Your Content </div>
-          </div>
 
         <!-- blog section start -->
         <section class="blog__section__container">
@@ -342,34 +335,94 @@
                         </div>
                     </div>
 
-                    <div class="blog__section__items">
-                        <div class="row">
-
-                            <!-- first item start -->
-                            <div class="col-md-4">
-                                <div class="blog__section-item">
-                                    <div class="card">
-
-                                        <div class="row">
-                                            <div class="col-md-5">
-                                                <div class="blog__item-left">
-                                                    <img class="img-fluid" src="./assets/images/blog-1.png" alt="">
-                                                    <small>Posted on</small>
-                                                    <p>October 26, 2021</p>
-                                                </div>
+                    <div class="blog__section__items owl-carousel">
+                            <!-- first item -->
+                            <div class="blog__section-item">
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="blog__item-left">
+                                                <img class="" src="./assets/images/blog-1.png" alt="">
+                                                <small>Posted on</small>
+                                                <p>October 26, 2021</p>
                                             </div>
-                                            <div class="col-md-7">
-                                                <div class="blog__item-right">
-                                                    <h1 class="title-bold">What’s growth hacking? 8 great books to learn more about it</h1>
-                                                    <p class="detail-gray">How you can set personal boundaries to reduce stress and burnout</p>
-                                                </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="blog__item-right">
+                                                <h1 class="title-bold">What’s growth hacking? 8 great books to learn more about it</h1>
+                                                <p class="detail-gray">How you can set personal boundaries to reduce stress and burnout</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- first item end -->
-                        </div>
+                            <!-- first item -->
+
+                            <!-- second item -->
+                            <div class="blog__section-item">
+                                <div class="card">
+
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="blog__item-left">
+                                                <img class="" src="./assets/images/blog-2.png" alt="">
+                                                <small>Posted on</small>
+                                                <p>October 26, 2021</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="blog__item-right">
+                                                <h1 class="title-bold">What’s growth hacking? 8 great books to learn more about it</h1>
+                                                <p class="detail-gray">How you can set personal boundaries to reduce stress and burnout</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second item -->
+
+                            <!-- third item -->
+                            <div class="blog__section-item">
+                                <div class="card">
+
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="blog__item-left">
+                                                <img class="" src="./assets/images/blog-3.png" alt="">
+                                                <small>Posted on</small>
+                                                <p>October 26, 2021</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="blog__item-right">
+                                                <h1 class="title-bold">What’s growth hacking? 8 great books to learn more about it</h1>
+                                                <p class="detail-gray">How you can set personal boundaries to reduce stress and burnout</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- third item -->
+                            <div class="blog__section-item">
+                                <div class="card">
+
+                                    <div class="row">
+                                        <div class="col-md-5">
+                                            <div class="blog__item-left">
+                                                <img class="img-fluid" src="./assets/images/blog-1.png" alt="">
+                                                <small>Posted on</small>
+                                                <p>October 26, 2021</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7">
+                                            <div class="blog__item-right">
+                                                <h1 class="title-bold">What’s growth hacking? 8 great books to learn more about it</h1>
+                                                <p class="detail-gray">How you can set personal boundaries to reduce stress and burnout</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
 
                 </div>
@@ -403,8 +456,19 @@
         $(document).ready(function(){
             $(".owl-carousel").owlCarousel({
                 loop:true,
-                margin:10,
-                responsiveClass:true
+                margin:20,
+                responsiveClass:true,
+                responsive:{
+                    576:{
+                        items:1,
+                        nav:false
+                    },
+                    1000:{
+                        items:3,
+                        nav:true,
+                        loop:false
+                    }
+                }
             });
         });
     </script>

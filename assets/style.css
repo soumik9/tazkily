@@ -314,13 +314,16 @@ header {
     margin-top: 50px;
 }
 
-.blog__section-item .card{
+.blog__section-item .card{ 
     padding: 24px;
     background: #FDFDFD;
     border-radius: 20px;
 }
 
 .blog__item-left img{
+   
+    height: 215px;
+    width: 184px;
     margin-bottom: 16px;
 }
 
@@ -340,6 +343,33 @@ header {
     line-height: 150%;
 }
 
+.blog__item-right p{
+    margin-bottom: 0;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: end;
+    margin-top: 35px;
+}
+
+.owl-prev, .owl-next{
+    padding: ;
+    background-color: #8828FF !important;
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+    margin-right: 24px;
+}
+
+.owl-prev span, .owl-next span{
+    color: white;
+    font-size: 18px;
+}
+.owl-carousel .owl-prev.disabled,
+  .owl-carousel .owl-next.disabled{
+    background-color: #F8F2FF !important;
+}
 
 
 
