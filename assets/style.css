@@ -373,7 +373,7 @@ header {
 
 
 /* ===========================
-    blog css starts
+    usedby css starts
 ==============================*/
 .usedby__container{
     padding: 30px 0 100px 0;
@@ -381,9 +381,62 @@ header {
 
 
 
+/* ===========================
+    footer css starts
+==============================*/
+footer{
+    background-color:  #260055;;
+}
 
+.footer__container{
+    padding: 127px 0 109px 0;
+}
 
+.footer__container .navbar__brand-left{
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: -5px;
+    margin-right: 17px;
+}
 
+.footer__container__first__section p{
+    margin-top: 17px;
+    margin-bottom: 32px;
+    color: #ADABB7;
+}
+.footer__container__first__section .socials div{
+    margin-right: 45px;
+}
+
+.footer__container__links__section ul{
+    
+}
+
+.footer__container__links__section ul li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer__container__links__section ul li a{
+    color: #ADABB7;
+    text-decoration: none;
+}
+
+.footer__container__links__section ul li:nth-child(1) a{
+    color: #fff;
+    font-weight: 700;
+}
+
+.footer__foot__section{
+    margin-top: 80px;
+}
+
+.footer__foot__section p{
+    color: #ADABB7;
+    font-size: 18px;
+}
 
 
 
