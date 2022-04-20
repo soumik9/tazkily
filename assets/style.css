@@ -1,9 +1,16 @@
+/* font imported */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
 
 body {
     font-family: 'Space Grotesk', sans-serif;
 }
 
+
+
+/* ===========================
+    deafult css starts
+==============================*/
 .btn-tazkily{
     padding: 16px 32px;
     color: #FFF;
@@ -60,13 +67,15 @@ body {
     line-height: 160%;
     color: #666666
 }
+/* ===========================
+    deafult css end
+==============================*/
 
 
 /* ===========================
         header css starts
 ==============================*/
 header {
-    /* background-image: linear-gradient(to right bottom, #c1bcff, #bdb0ff, #bba4ff, #bb96ff, #bc88ff, #aa91ff, #9999ff, #8ba0ff, #7bb7ff, #7bcbff, #8ddcff, #aaebff); */
     background-image: url('./images/header-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,12 +162,14 @@ header {
 .header__banner img{
     height: 600px;
 }
-
 /* ===========================
-        header css starts
+    header css end
 ==============================*/
 
 
+/* ===========================
+    third section css start
+==============================*/
 .third__section-img{
     width: 578px;
     height: 531px;
@@ -174,10 +185,13 @@ header {
 .third__section__right-button a:hover{
     color: #8828FF;
 }
+/* ===========================
+    third section css end
+==============================*/
 
 
 /* ===========================
-        package css starts
+    package css starts
 ==============================*/
 .package__section__container{
     background-color: #F9F9FB;
@@ -309,6 +323,9 @@ header {
     top: 0;
     right: 22px;
 }
+/* ===========================
+    package css end
+==============================*/
 
 
 /* ===========================
@@ -377,6 +394,9 @@ header {
   .owl-carousel .owl-next.disabled{
     background-color: #F8F2FF !important;
 }
+/* ===========================
+    blog css end
+==============================*/
 
 
 /* ===========================
@@ -385,6 +405,9 @@ header {
 .usedby__container{
     padding: 30px 0 100px 0;
 }
+/* ===========================
+    usedby css starts
+==============================*/
 
 
 /* ===========================
@@ -459,6 +482,10 @@ header {
 }
 
 /* ===========================
+    join css end
+==============================*/
+
+/* ===========================
     footer css starts
 ==============================*/
 footer{
@@ -511,12 +538,16 @@ footer{
     color: #ADABB7;
     font-size: 18px;
 }
+/* ===========================
+    footer css end
+==============================*/
 
 
 
 
-
-
+/* =========================================
+    mobile responsive css starts
+==========================================*/
 
 @media only screen and (max-width: 576px) {
     .title-bold{
@@ -591,7 +622,7 @@ footer{
     .footer__container__links__section ul{
         padding-left: 0;
     }
-
-  
- 
 }
+/* =========================================
+    mobile responsive css end
+==========================================*/
